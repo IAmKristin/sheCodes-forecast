@@ -1,0 +1,188 @@
+body {
+    background-image: url("seasons.jpg");
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: auto 80%;
+    margin: 10px auto;
+    max-width: 85%;
+}
+
+form {
+    margin: 50px;
+    text-align: left;
+}
+
+input {
+    border-radius: 7px;
+    background-color: rgba(230, 233, 240, 0.534);
+    border: rgb(95, 96, 97) 0.5px solid;
+    color: rgba(101, 101, 138, 0.7);
+    font-weight: 600;
+    padding: 3px 10px;
+    box-shadow: 2px 3px 2px rgba(93, 92, 114, 0.5);
+}
+
+input:hover {
+    background-color: rgba(122, 178, 223, 0.836);
+    transition: 0.5s;
+}
+
+button {
+    border-radius: 7px;
+    background-color: rgba(112, 175, 233, 0.301);
+    border: rgba(122, 178, 223, 0.836) 0.5px solid;
+    color: black;
+    font-weight: 600;
+    padding: 3px 10px;
+    box-shadow: 2px 3px 2px rgba(128, 128, 128, 0.5);
+}
+
+button:hover {
+    background-color: rgba(122, 178, 223, 0.836);
+    transition: 0.5s;
+}
+
+form:hover {
+    cursor: pointer;
+}
+
+h1,
+h2,
+h6,
+#today {
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    font-family: Fuzzy Bubbles;
+    margin-bottom: 0px;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 95px;
+}
+
+h2 {
+    margin-bottom: 10px;
+    font-size: 70px;
+}
+
+#weatherDetails {
+    margin-bottom: 40px;
+    font-weight: 900;
+}
+
+strong {
+    font-size: 80px;
+}
+
+footer {
+    color: rgba(0, 0, 0, 0.558);
+    margin: 10px;
+}
+
+.units {
+    font-size: 40px;
+}
+
+.container {
+    margin-bottom: 20px;
+    max-width: 900px;
+}
+
+.row {
+    margin: auto 0px;
+    background-color: rgba(103, 152, 197, 0.356);
+    padding: 20px 0px;
+    border-radius: 10px;
+}
+
+.col {
+    margin: auto 0px;
+    background-color: transparent;
+    padding: 20px 10px;
+    border-left: 0.1px solid rgb(96, 149, 192);
+    text-align: center;
+}
+
+
+.afternoon {
+    font-weight: 700;
+}
+
+.forecast-day {
+    font-size: 30px;
+    font-weight: 500;
+
+}
+
+.temperatureWeekDay {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#currentLocation {
+    margin: 10px 0px 30px 0px;
+    padding: 3px 40px;
+}
+
+#currentLocation:hover {
+    background-color: rgba(122, 178, 223, 0.836);
+    transition: 0.5s;
+}
+
+#today {
+    font-size: 20px;
+}
+
+#description {
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+#github {
+    color: rgba(122, 178, 223, 0.836);
+}
+
+#github:hover {
+    color: rgba(173, 202, 226, 0.836);
+    cursor: pointer;
+}
+
+#icon {
+    width: 150px;
+}
+
+#forecastIcon {
+    width: 85px;
+}
+
+@media screen and (max-width: 700px) {
+    body {
+        max-width: 98%;
+        margin: 3px auto;
+    }
+    h1 {
+        font-size: 75px;
+    }
+    h2 {
+        font-size: 55px;
+    }
+
+    .col {
+        padding: 5px 5px;
+        border-left: 0.1px solid white;
+        }
+    .forecast-day {
+        font-size: 20px;
+    }
+    .temperatureWeekDay {
+        font-size: 13px;
+    }
+    .afternoon {
+        font-size: 15px;
+        font-weight: 700;
+    }
+    #forecastIcon {
+        width:65px;
+        }
+}
